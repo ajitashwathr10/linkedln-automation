@@ -1,1 +1,1 @@
-# linkedln-automation
+# LinkedIn Automation Script
