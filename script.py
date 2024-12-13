@@ -57,7 +57,7 @@ class LinkedInAutomation:
             self.driver.get("https://www.linkedin.com/login")
 
             email_field = self.wait.until(
-                EC.presence_of_element_located((By.ID. "username"))
+                EC.presence_of_element_located((By.ID, "username"))
             )
             password_field = self.driver.find_element(By.ID, "password")
             email_field.send_keys(email)
