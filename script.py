@@ -114,6 +114,8 @@ class LinkedInAutomation:
                     sent_requests += 1
                     print(f"Sent request {sent_requests} / {max_requests}")
                     time.sleep(random.uniform(2, 5))
+                except:
+                    pass
         except Exception as e:
             print(f"Error sending connection requests: {e}")
 
